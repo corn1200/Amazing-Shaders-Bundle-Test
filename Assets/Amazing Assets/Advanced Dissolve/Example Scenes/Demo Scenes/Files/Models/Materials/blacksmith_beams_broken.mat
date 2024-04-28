@@ -2,24 +2,36 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: blacksmith_beams_broken
   m_Shader: {fileID: 4800000, guid: 1f3163fc7f2dbc843a57387a87aba4ca, type: 3}
-  m_ShaderKeywords: _AD_CUTOUT_GEOMETRIC_COUNT_ONE _AD_CUTOUT_GEOMETRIC_TYPE_CONE_SMOOTH
-    _AD_CUTOUT_STANDARD_SOURCE_CUSTOM_MAP _AD_CUTOUT_STANDARD_SOURCE_MAPS_MAPPING_TYPE_TRIPLANAR
-    _AD_EDGE_ADDITIONAL_COLOR_NONE _AD_EDGE_BASE_SOURCE_CUTOUT_GEOMETRIC _AD_EDGE_BASE_SOURCE_CUTOUT_PARAMETRIC
-    _AD_EDGE_UV_DISTORTION_SOURCE_DEFAULT _AD_GLOBAL_CONTROL_ID_ONE _AD_STATE_ENABLED
-    _DETAIL_MULX2 _NORMALMAP
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _AD_CUTOUT_GEOMETRIC_TYPE_CONE_SMOOTH
+  - _AD_CUTOUT_STANDARD_SOURCE_CUSTOM_MAP
+  - _AD_CUTOUT_STANDARD_SOURCE_MAPS_MAPPING_TYPE_TRIPLANAR
+  - _AD_EDGE_BASE_SOURCE_CUTOUT_GEOMETRIC
+  - _AD_GLOBAL_CONTROL_ID_ONE
+  - _AD_STATE_ENABLED
+  m_InvalidKeywords:
+  - _AD_CUTOUT_GEOMETRIC_COUNT_ONE
+  - _AD_EDGE_ADDITIONAL_COLOR_NONE
+  - _AD_EDGE_BASE_SOURCE_CUTOUT_PARAMETRIC
+  - _AD_EDGE_UV_DISTORTION_SOURCE_DEFAULT
+  - _DETAIL_MULX2
+  - _NORMALMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -135,6 +147,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _AdvancedDissolveCutoutGeometric1Height: 1
     - _AdvancedDissolveCutoutGeometric1Radius: 1
@@ -275,6 +288,8 @@ Material:
     - _OcclusionStrength: 1
     - _Orthonormalize: 0
     - _Parallax: 0.02
+    - _QueueControl: -1
+    - _QueueOffset: 0
     - _SmoothnessInAlbedo: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
