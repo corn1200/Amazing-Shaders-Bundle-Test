@@ -2,20 +2,31 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Boat_PaperCraft
   m_Shader: {fileID: 4800000, guid: d1526246dce9ba949bfca532512d7294, type: 3}
-  m_ShaderKeywords: _LOWPOLY_DIFFUSEBLENDMODE_ADDITIVE _NORMALMAP
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _LOWPOLY_DIFFUSEBLENDMODE_ADDITIVE
+  - _LOWPOLY_SAMPLETYPE_AVERAGE_COLOR
+  - _NORMALMAP
+  m_InvalidKeywords:
+  - _LOWPOLY_ALPHATEST_NONE
+  - _LOWPOLY_DISPLACEMODE_NONE
+  - _LOWPOLY_SECONDARYTEXTUREBLENDMODE_NONE
+  - _LOWPOLY_WIREFRAMEMODE_NONE
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -111,6 +122,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _BUMP_LABEL: 0
     - _BumpScale: 1
@@ -139,6 +151,7 @@ Material:
     - _Lowpoly_AlphaTest: 0
     - _Lowpoly_BumpMapStrength: 1
     - _Lowpoly_Cull: 0
+    - _Lowpoly_DiffuseBlendAlphaPremultiply: 0
     - _Lowpoly_DiffuseBlendMode: 1
     - _Lowpoly_DiffuseBlendStrength: 1
     - _Lowpoly_DiffuseMapMode: 1
@@ -161,6 +174,7 @@ Material:
     - _Lowpoly_FlatNormals: 0
     - _Lowpoly_FlatSamples: 0
     - _Lowpoly_SampleAsQuad: 0
+    - _Lowpoly_SampleType: 0
     - _Lowpoly_SecondaryTex_InvertAlpha: 0
     - _Lowpoly_SecondaryTextureBlendMode: 0
     - _Lowpoly_SmoothnessSource: 0
@@ -168,6 +182,7 @@ Material:
     - _Lowpoly_TransparentFade: 0
     - _Lowpoly_UseVertexColor: 0
     - _Lowpoly_WireframeColorBlendWithBase: 0.9
+    - _Lowpoly_WireframeColorEmission: 0
     - _Lowpoly_WireframeDiameter: 1
     - _Lowpoly_WireframeMode: 0
     - _Lowpoly_WireframeNormalizeEdges: 0
@@ -221,6 +236,7 @@ Material:
     - _Lowpoly_DiffuseMap_Scroll: {r: 0, g: 0, b: 0, a: 0}
     - _Lowpoly_DisplaceMap_Scroll: {r: 0, g: 0, b: 0, a: 0}
     - _Lowpoly_DisplaceSecondaryMap_Scroll: {r: 0, g: 0, b: 0, a: 0}
+    - _Lowpoly_SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
     - _Lowpoly_SecondaryTex_Scroll: {r: 0, g: 0, b: 0, a: 0}
     - _Lowpoly_WireframeColor: {r: 1, g: 0, b: 0, a: 1}
     - _MainTex_Scroll: {r: 0, g: 0, b: 0, a: 0}
@@ -228,3 +244,4 @@ Material:
     - _ReflectColor: {r: 1, g: 1, b: 1, a: 0.5}
     - _SecondTex_Scroll: {r: 0, g: 0, b: 0, a: 0}
     - _V_WIRE_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

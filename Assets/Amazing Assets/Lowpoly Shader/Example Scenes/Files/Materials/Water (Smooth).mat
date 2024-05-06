@@ -2,20 +2,31 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Water (Smooth)
   m_Shader: {fileID: 4800000, guid: 52f03a91e33841141badbbbe04d67cfe, type: 3}
-  m_ShaderKeywords: _LOWPOLY_DISPLACEMODE_PARAMETRIC _LOWPOLY_FLAT_NORMALS
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _LOWPOLY_DISPLACEMODE_PARAMETRIC
+  - _LOWPOLY_FLAT_NORMALS
+  - _LOWPOLY_SAMPLETYPE_AVERAGE_COLOR
+  m_InvalidKeywords:
+  - _LOWPOLY_ALPHATEST_NONE
+  - _LOWPOLY_DIFFUSEBLENDMODE_NONE
+  - _LOWPOLY_SECONDARYTEXTUREBLENDMODE_NONE
+  - _LOWPOLY_WIREFRAMEMODE_NONE
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -111,6 +122,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _ALPHA_LABEL: 0
     - _AlphaFromVertex: 1
@@ -180,6 +192,7 @@ Material:
     - _Lowpoly_UseLowpolyLight: 1
     - _Lowpoly_UseVertexColor: 0
     - _Lowpoly_WireframeColorBlendWithBase: 0.9
+    - _Lowpoly_WireframeColorEmission: 0
     - _Lowpoly_WireframeDiameter: 1
     - _Lowpoly_WireframeMode: 0
     - _Lowpoly_WireframeNormalizeEdges: 0
@@ -244,3 +257,4 @@ Material:
     - _SecondTex_Scroll: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _V_WIRE_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
